@@ -39,7 +39,8 @@ namespace NUnit.Tests1
             {
                 ITakesScreenshot ts = driver as ITakesScreenshot;
                 Screenshot screenshot = ts.GetScreenshot();
-                screenshot.SaveAsFile("C:\\Users\\User\\source\\repos\\NUnit.Tests1\\NUnit.Tests1\\Screenshots\\Screenshot1", ScreenshotImageFormat.Jpeg);
+                screenshot.SaveAsFile("C:\\Users\\User\\source\\repos\\NUnit.Tests1\\NUnit.Tests1\\Screenshots\\Screenshot1", ScreenshotImageFormat.Jpeg;
+                                  wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.Id
                 Console.WriteLine(ex.StackTrace);
                 throw;
 
